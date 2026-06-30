@@ -12,7 +12,7 @@ print(a//b)
 
 #問題3（条件分岐）
 score=75
-if(score>=80)
+if score>=80:
   print("Pass")
 else:
   print("Fail")
@@ -31,7 +31,7 @@ print(len(text))
 
 #問題7（関数）
 def square(x):
-return x * x
+  return x * x
 
 print(square(5))
 
